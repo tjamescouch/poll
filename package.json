@@ -1,0 +1,21 @@
+{
+  "name": "@tjamescouch/poll",
+  "version": "0.1.0",
+  "description": "Watch files and emit matching lines to stdout. Unix-style filter with condition expressions.",
+  "type": "module",
+  "bin": {
+    "poll": "./poll.js"
+  },
+  "main": "./poll.js",
+  "exports": "./poll.js",
+  "scripts": {
+    "test": "node --test test/poll.test.js"
+  },
+  "keywords": ["poll", "watch", "tail", "filter", "cli", "unix", "pipe", "stream"],
+  "author": "tjamescouch",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": ["poll.js", "README.md", "LICENSE"]
+}
